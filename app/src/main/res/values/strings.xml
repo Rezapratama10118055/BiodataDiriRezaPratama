@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BiodataDiriRezaPratama</string>
+    <string name="Nama">Reza Pratama</string>
+    <string name="NIM">10118055</string>
+    <string name="Kelas">IF-2</string>
+    <string name="JenisKelamin">Laki-Laki</string>
+    <string name="TempatLahir">Tanjung Pandan, 15 Maret 2000</string>
+    <string name="Alamat">Jalan Sijuk - Asam Lubang</string>
+    <string name="GolonganDarah"> B </string>
+    <string name="MakananKesukaan"> Ayam Goreng </string>
+    <string name="MinumanKesukaan">Jus Alpukat</string>
+    <string name="Hobi">Bermain Game, Futsal</string>
+    <string name="Lagu">Pamungkas - To the Bone </string>
+    <string name="Filem">Demon slayer kimetsu no yaiba</string>
+    <string name="Pekerjaan">Developer</string>
+
+</resources>

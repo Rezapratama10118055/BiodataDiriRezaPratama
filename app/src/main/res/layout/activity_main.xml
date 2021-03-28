@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:background="@drawable/bg" />
+
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="160dp"
+                android:layout_height="172dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-135dp"
+                android:src="@drawable/reza"
+                app:civ_border_color="@color/teal_700"
+                app:civ_border_width="6dp"
+                app:civ_shadow="true"
+                app:civ_shadow_color="#8BC34A"
+                app:civ_shadow_radius="10" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-150dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Nama :"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:layout_marginLeft="170dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/chango"
+                android:text="@string/Nama"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_below="@id/textView1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Nim :"
+                android:textColor="#EDECEC"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="170dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/chango"
+                android:text="@string/NIM"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="101dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:background="@drawable/lingkaran"
+                android:src="@drawable/ic_baseline_person_24" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="206dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-52dp"
+                android:fontFamily="@font/chango"
+                android:text="Biodata"
+                android:textColor="#7cde7c"
+                android:textSize="36sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg"
+                android:orientation="horizontal" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="-350dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/ic_baseline_more_vert_24" />
+
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="208dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="320dp"
+                android:layout_below="@id/view"
+
+                android:background="@drawable/line"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/kelas"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Kelas :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_kelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/Kelas"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/jeniskelamin"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/kelas"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:layout_gravity="center"
+                    android:text="Jenis Kelamin :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_jeniskelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/JenisKelamin"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tempat"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/kelas"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Tempat, Tanggal Lahir :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_tempat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/TempatLahir"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="380dp"
+               android:layout_height="191dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/line"
+               android:orientation="vertical">
+
+               <TextView
+                android:id="@+id/alamat"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:layout_gravity="center"
+                android:text="Alamat :"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+               <TextView
+                android:id="@+id/v_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/chango"
+                android:text="@string/Alamat"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+               <TextView
+                android:id="@+id/golongan"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@id/kelas"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Golongan Darah :"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+                <TextView
+                android:id="@+id/v_golongan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/chango"
+                android:text="@string/GolonganDarah"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                 <TextView
+                android:id="@+id/makanan"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@id/kelas"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Makanan Kesukaan :"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+               <TextView
+                android:id="@+id/v_makanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/chango"
+                android:text="@string/MakananKesukaan"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+             </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/minuman"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:layout_gravity="center"
+                    android:text="Minuman Kesukaan :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_minuman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/MinumanKesukaan"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hobi"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/kelas"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Hobi :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_hobi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/Hobi"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lagu"
+                    android:layout_width="189dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="lagu Favorit :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_lagu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/Lagu"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/filem"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/kelas"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Filem Favorit :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_filem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/Filem"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/pekerjaan"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/kelas"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:text="Pekerjaan  :"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/v_pekerjaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chango"
+                    android:text="@string/Pekerjaan"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
